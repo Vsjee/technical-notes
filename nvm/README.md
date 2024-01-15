@@ -1,33 +1,41 @@
 # Useful `NVM` commands
 
-#### check version
+Visit [NVM repository](https://github.com/nvm-sh/nvm)
+
+## About
+
+nvm is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
+
+## Commands
+
+#### Check version
 
 - node: `node -v || node --version`
 - nvm: `nvm -v || nvm --version`
 
-#### list locally installed versions of node
+#### List locally installed versions of node
 
 - `nvm ls`
 
 <!-- ### list remove available versions of node
 - `nvm ls-remote` -->
 
-#### install specific version of node
+#### Install specific version of node
 
-- `nvm install [node-version]`
+- `nvm install <node-version>`
 
-#### set default version of node
+#### Set default version of node
 
-- `nvm alias default [node-version]`
+- `nvm alias default <node-version>`
 
-#### switch version of node
+#### Switch version of node
 
-- `nvm use [node-version]`
+- `nvm use <node-version>`
 
-#### install latest LTS version of node (Long Term Support)
+#### Install latest LTS version of node (Long Term Support)
 
 - `nvm install --lts`
 
-#### install latest stable version of node
+#### Install latest stable version of node
 
 - `nvm install stable`
