@@ -1,6 +1,7 @@
 # Useful `NVM` commands
 
-Visit [NVM repository](https://github.com/nvm-sh/nvm)
+Visit [NVM repository](https://github.com/nvm-sh/nvm)\
+Visit [NVM-WINDOWS repository](https://github.com/coreybutler/nvm-windows)
 
 ## About
 
