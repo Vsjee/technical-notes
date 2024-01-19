@@ -63,7 +63,7 @@ The tags are used to identify the images inside the Docker hub. If the tag is no
 #### Builds a docker image based on an Dockerfile.
 
 ```
-docker build .
+docker build . -t <name>
 ```
 
 For this we must be at the root of the project.
