@@ -11,32 +11,53 @@ nvm is a version manager for node.js, designed to be installed per-user, and inv
 
 #### Check version
 
-- node: `node -v || node --version`
-- nvm: `nvm -v || nvm --version`
+- node:
+
+```
+node -v || node --version
+```
+
+- nvm:
+
+```
+nvm -v || nvm --version
+```
 
 #### List locally installed versions of node
 
-- `nvm ls`
+```
+nvm ls
+```
 
 <!-- ### list remove available versions of node
 - `nvm ls-remote` -->
 
 #### Install specific version of node
 
-- `nvm install <node-version>`
+```
+nvm install <node-version>
+```
 
 #### Set default version of node
 
-- `nvm alias default <node-version>`
+```
+nvm alias default <node-version>
+```
 
 #### Switch version of node
 
-- `nvm use <node-version>`
+```
+nvm use <node-version>
+```
 
 #### Install latest LTS version of node (Long Term Support)
 
-- `nvm install --lts`
+```
+nvm install --lts
+```
 
 #### Install latest stable version of node
 
-- `nvm install stable`
+```
+nvm install stable
+```
