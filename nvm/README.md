@@ -3,10 +3,10 @@
 Visit [NVM repository](https://github.com/nvm-sh/nvm)\
 Visit [NVM-WINDOWS repository](https://github.com/coreybutler/nvm-windows)
 
-- [About](about)
-- [Installation](installation)
-  - [Linux (Fedora)](linux-fedora) 
-- [Commands](commands)
+- [About](#about)
+- [Installation](#installation)
+  - [Linux (Fedora)](#linux-fedora) 
+- [Commands](#commands)
 
 ## About
 
