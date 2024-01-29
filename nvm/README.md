@@ -3,9 +3,36 @@
 Visit [NVM repository](https://github.com/nvm-sh/nvm)\
 Visit [NVM-WINDOWS repository](https://github.com/coreybutler/nvm-windows)
 
+- [About](about)
+- [Installation](installation)
+  - [Linux (Fedora)](linux-fedora) 
+- [Commands](commands)
+
 ## About
 
 nvm is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
+
+## Installation
+
+### Linux Fedora
+
+1. Install curl
+
+```sh
+sudo dnf install curl
+```
+
+2. Run the NVM installer script with curl
+
+```sh
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+```
+
+3. It creates a .nvm directory under the home directory. Where nvm keeps own binary file and all other required files. Then it sets environment in users .bashrc file. You need to load this environment to set required configuration by running the following command:
+   
+```sh
+source ~/.bashrc
+```
 
 ## Commands
 
